@@ -1,0 +1,25 @@
+Goal : PIVOT --> categoty_post;
+Purpose: To hold the post id the categories id's of the specific post
+
+Catagories table
+id          name
+1           Travel
+2           Food
+3           Lyfestyle
+4           Technology
+5           Carrer
+6           Movie
+                        User - John Smith
+Post table
+id          name
+1           My Trip To Maldvies
+2           My New Diet Plan
+3           Test Post
+.           ....    
+
+PIVOT -- category_post
+post_id     category_id 
+1            1
+1            5
+2            3
+2            2
